@@ -11,7 +11,7 @@ You can click the Preview link to take a look at your changes.
 double fact (int n);
 int main(void)
 {
-	int i,n;
+	int i,n,a;
 	double result,sum;
 	sum=0;
 	scanf("%d",&n);
@@ -22,7 +22,7 @@ int main(void)
 	printf("sum=%If",sum);
 	return 0;
 }
-double fact(int n)
+double fact(int n，int a)
 {
 	int i;
 	double product;
